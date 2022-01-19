@@ -1,4 +1,4 @@
-# Pop Jig
+# Pop Jig ☘️
 _This project is still in progress. Currently, it can return recommendations based on genre only. Using artists and songs as seeds is the next step!_
 
 
