@@ -1,0 +1,51 @@
+{
+    "reel": {
+        "tempo": {
+            "beginner": [112, 130],
+            "intermediate": [112, 118],
+            "champion": [112, 116]
+        },
+        "time signature": [4, 4]
+
+    },
+    "light jig": {
+        "tempo": {
+            "beginner": [112, 121],
+            "intermediate": [112, 121],
+            "champion": [112, 121]
+        },
+        "time signature": [6, 8]
+    },
+    "hop jig": {
+        "tempo": {
+            "beginner": [112, 124],
+            "intermediate": [112, 122],
+            "champion": [118, 118]
+        },
+        "time signature": [6, 8]
+    },
+    "slip jig": {
+        "tempo": {
+            "beginner": [112, 130],
+            "intermediate": [112, 124],
+            "champion": [112, 118]
+        },
+        "time signature": [9, 8]
+    },
+    "treble jig": {
+        "tempo": {
+            "beginner": [85, 96],
+            "intermediate": [82, 85],
+            "champion": [72, 76]
+        },
+        "time signature": [6, 8]
+    }, 
+    "hornpipe": {
+        "tempo": {
+            "beginner": [128, 144],
+            "intermediate": [113, 130],
+            "champion": [112, 116]
+        },
+        "time signature": [4, 4]
+    }
+}
