@@ -56,8 +56,8 @@ def get_recommendations(seed_genres, min_tempo, max_tempo, target_time_signature
     return response_content["tracks"][0]["external_urls"]["spotify"]
 
 
-client_id = "1a7784245f6e4517b6ae96bf7463c1fc"
-client_secret = "3547047b32c04af3b40ac17a2de6dcad"
+client_id = "<<Insert client id here>>"
+client_secret = "<<Insert client token here>>"
 
 token = get_client_token(client_id, client_secret)
 #token = "BQBaPQzn-Yehzfp81PVxAmIShe4nEDx92HmUk0_wmV9K3CPGBwZfek4InmUtBqdBaCkFfjRKUgEv2y7THRA"
