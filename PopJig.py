@@ -52,8 +52,8 @@ parser.add_argument('--dance_level', type=str, help='level of dance', required=T
 
 args = parser.parse_args()
 
-client_id = "1a7784245f6e4517b6ae96bf7463c1fc"
-client_secret = "3547047b32c04af3b40ac17a2de6dcad"
+client_id = "<<Insert client id here>>"
+client_secret = "<<Insert client secret here>>"
 
 token = apic.get_client_token(client_id, client_secret)
 
@@ -74,7 +74,7 @@ mode = Properties.Mode(min=args.min_mode, max=args.max_mode, target=args.target_
 popularity = Properties.Popularity(min=args.min_popularity, max=args.max_popularity, target=args.target_popularity)
 valence = Properties.Valence(min=args.min_valence, max=args.max_valence, target=args.target_valence)
 
-file = open("/Users/allisonlisciandro/PersonalProjects/PopJig/DanceTempos.json")
+file = open("./DanceTempos.json")
 dance_data = json.load(file)
     
 dance_type = args.dance_type
@@ -115,7 +115,4 @@ except:
     time_signature = Properties.TimeSignature(target=target_time_signature)
     properties = [acousticness, danceability, duration, energy, instrumentalness, key, liveness, loudness, mode, popularity, tempo, time_signature, valence]
     apic.get_recommendations(token, seeds_string, properties=properties, limit=1)
-
-
-#apic.get_song_id(token, "Prayer X", "King Gnu")
 
