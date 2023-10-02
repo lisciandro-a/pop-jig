@@ -34,4 +34,4 @@ For more information on how to specify each input, run ```python ./PopJig.py --h
 
 ### Notes
 * This program is far from perfect. The Spotify API only provides estimations for time signature and tempo for each song. This may mean that some song recommendations are not ideal.
-* Treble jig is performed at a very uncommon tempo. In order to account for that, tempo has a higher priority than time signature. Even so, song recommendations for treble jig generally do not seem to work well. :(
+* Slip jig is performed at a very uncommon tempo. In order to account for that, tempo has a higher priority than time signature. Even so, song recommendations for slip jig generally do not seem to work well. :(
